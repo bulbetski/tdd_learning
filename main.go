@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/bulbetski/tdd_learning/hello_world"
+	"github.com/bulbetski/tdd_learning/iteration"
 )
 
 func main() {
-	fmt.Println(hello_world.Hello("Zakhar", "Spanish"))
+	fmt.Println(iteration.Repeat("a", 5))
 }
